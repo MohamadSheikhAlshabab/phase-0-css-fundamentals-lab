@@ -3,3 +3,25 @@ body {
   height: 100%;
   margin: 0;
 }
+nav a{
+  background: lightgray;
+  padding: 0 1em;
+}
+
+header,figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+figure ~ p{
+  text-align: center;
+  padding: 0 36em;
+}
+
+#details{
+  background: red;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
